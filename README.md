@@ -1,6 +1,6 @@
 DESCRIPTION:
 
-This is a square root calculation done in assembly x86 on 64 bit, nasm syntax. This is done using the FPU Register Stack, it loads the number on the stack and then it calls the "fsqrt" function, popping the number and pushing the result on the stack. Modern processors are equipped with a Floating Point Unit which can calculate these kind of mathematical operations in optimal time.
+This is a square root calculation done in assembly x86 on 64 bit, nasm syntax. This is done using the FPU Register Stack, it loads the number on the stack and then it calls the "fsqrt" function, popping the number and pushing the result on the stack. Modern processors are equipped with a Floating Point Unit which can calculate this kind of mathematical operations in optimal time.
 
 
 How to run:
@@ -16,4 +16,4 @@ How to run:
 
 CLEAN:
 
-To dispose of "sqrt.o" and "sqrt" enther the following command: "$make clean".
+To dispose of "sqrt.o" and "sqrt" enter the following command: "$make clean".
